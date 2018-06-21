@@ -16,6 +16,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "parcel-bundler": "^1.9.2",
-    "postcss": "^6.0.22"
+    "postcss": "^6.0.22",
+    "postcss-modules": "^1.1.0"
   }
 }
