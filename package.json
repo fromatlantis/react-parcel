@@ -1,0 +1,21 @@
+{
+  "name": "big-screen",
+  "version": "1.0.0",
+  "description": "北京交管局大屏",
+  "main": "index.js",
+  "author": "niuzhiwei",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel ./src/index.html"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.9.2",
+    "postcss": "^6.0.22"
+  }
+}
