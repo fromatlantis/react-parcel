@@ -1,22 +1,35 @@
 {
-  "name": "big-screen",
-  "version": "1.0.0",
-  "description": "北京交管局大屏",
-  "main": "index.js",
-  "author": "niuzhiwei",
-  "license": "MIT",
-  "scripts": {
-    "start": "parcel ./src/index.html"
-  },
-  "dependencies": {
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1"
-  },
-  "devDependencies": {
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "parcel-bundler": "^1.9.2",
-    "postcss": "^6.0.22",
-    "postcss-modules": "^1.1.0"
+    "name": "your-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "author": "your-name",
+    "license": "MIT",
+    "browserslist": [
+      ">1%",
+      "last 4 versions",
+      "Firefox ESR",
+      "not ie < 9"
+    ],
+    "scripts": {
+      "start": "parcel ./src/index.html --out-dir dist --public-url /dist/",
+      "build": "parcel build ./src/index.html --out-dir dist --public-url /dist/"
+    },
+    "dependencies": {
+      "echarts": "^4.1.0",
+      "echarts-liquidfill": "^2.0.0",
+      "react": "^16.4.1",
+      "react-dom": "^16.4.1"
+    },
+    "devDependencies": {
+      "babel-plugin-transform-class-properties": "^6.24.1",
+      "babel-plugin-transform-runtime": "^6.23.0",
+      "babel-preset-env": "^1.7.0",
+      "babel-preset-react": "^6.24.1",
+      "parcel-bundler": "^1.9.2",
+      "postcss": "^6.0.22",
+      "postcss-cssnext": "^3.1.0",
+      "postcss-modules": "^1.1.0"
+    }
   }
-}
+  
