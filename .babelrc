@@ -1,5 +1,9 @@
 {
     "presets": ["env", "react"],
-    "plugins": ["transform-runtime","transform-class-properties","transform-object-rest-spread"],
-    "ignore": ["node_modules","dist"]
+    "plugins": ["transform-runtime", "transform-class-properties", "transform-object-rest-spread",["import", {
+        "libraryName": "antd",
+        "libraryDirectory": "es",
+        "style": "css" // `style: true` 会加载 less 文件
+      }]],
+    "ignore": ["node_modules", "dist"]
 }
