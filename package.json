@@ -45,6 +45,7 @@
         "parcel-bundler": "^1.9.2",
         "postcss": "^6.0.22",
         "postcss-cssnext": "^3.1.0",
+        "postcss-custom-properties": "^8.0.9",
         "postcss-modules": "^1.1.0"
     },
     "alias": {
