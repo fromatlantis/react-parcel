@@ -1,3 +1,6 @@
+/*
+    全局样式
+*/
 :root {
     /*
      * Typography
@@ -26,4 +29,7 @@
     --headerHeight: 64px;
     --footerHeight: 69px;
     --contentGutter: 10px;
+}
+body {
+    font-family: var(--font-family-base);
 }

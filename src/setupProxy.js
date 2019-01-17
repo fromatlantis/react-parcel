@@ -1,4 +1,6 @@
 // 修改本文件，需要重启前端服务yarn start
+// parcel不支持
+// But you can use parcel as middleware in your express application
 const proxy = require('http-proxy-middleware');
 module.exports = function (app) {
     // 接口代理e.g.

@@ -2,7 +2,12 @@
   "modules": true,
   "plugins": {
     "postcss-cssnext": true, 
+    "postcss-custom-properties": {
+      "preserve": false,
+      "importFrom": "./src/theme/variables.css"
+    },
     "postcss-modules": {
+      "globalModulePaths": ["./src/theme/global.css"],
       "generateScopedName": "[name]_[local]_[hash:base64:5]"
     }
   }
