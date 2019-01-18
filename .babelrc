@@ -1,9 +1,13 @@
 {
-    "presets": ["env", "react"],
-    "plugins": ["transform-runtime", "transform-class-properties", "transform-object-rest-spread",["import", {
-        "libraryName": "antd",
-        "libraryDirectory": "es",
-        "style": "css" // `style: true` 会加载 less 文件
-      }]],
+    "presets": ["@babel/preset-env", "@babel/preset-react"],
+    "plugins": [
+        ["@babel/plugin-transform-runtime"],
+        ["@babel/plugin-proposal-class-properties"], //类静态属性
+        ["import", {
+            "libraryName": "antd",
+            "libraryDirectory": "es",
+            "style": "css" // `style: true` 会加载 less 文件
+        }]
+    ],
     "ignore": ["node_modules", "dist"]
 }
